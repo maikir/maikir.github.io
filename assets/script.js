@@ -6,6 +6,12 @@ $(document).ready(function(){
 
 		// window.scrollBy(0,735);
 		$("html, body").animate({ scrollTop: 709 }, "slow");
+		if ($("#FindOutMoreButton").text() == 'Find Out More'){
+			$("#FindOutMoreButton").text("Let's go!");
+			$("#FindOutMoreButton").addClass("FindOutMoreButton-active");
+
+		}
+		
   		return false;
     // }
 		
